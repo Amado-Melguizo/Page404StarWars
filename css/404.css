@@ -430,3 +430,28 @@ a:hover,
 a:focus {
   color: white;
 }
+@media only screen and (max-width: 600px) {
+  #m2,#m4,#m6,#m8,#m10{
+    display: none;
+  }
+  .efectos{
+    margin-top: -100%;
+  }
+  .bolaLaser{
+    margin-top: -50%;
+    margin-left: 0%;
+  }
+  audio{
+    visibility: hidden;
+  }
+  .nave{
+    height: 200px;
+    margin-top: 100%;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1em;
+  }
+}
