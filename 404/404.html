@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/404.css" />
+    
+    <!-- Icono web -->
+    <link rel="shortcut icon" href="img/EM.webp" />
+    <title>Error 404</title>
+
+    <!-- archivos Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bb8.js" defer></script>
+
+    <!-- Musica -->
+    <audio controls src="starWars.mp3" autoplay loop></audio>
+    
+  </head>
+
+  <body>
+    <div>
+      <!-- Codigo de los textos -->
+      <div class="text">
+        <!-- Codigo del ERROR 404 -->
+        <h1>
+          <span class="disapear" id="digit1">ERROR</span>
+          <span class="disapear" id="digit2">4</span>
+          <span class="disapear" id="digit3">0</span>
+          <span class="disapear" id="digit4">4</span>
+        </h1>
+        <!-- Código del contador (activar en el js) -->
+        <div id="count"></div>
+
+        <!-- Código del Texto de los avisos -->
+        <h2>
+          <span>¡¡Tu y bb2 estais perdidos en internet de nuevo!!</span>
+          <br />
+          <span>Disfruta con el mientras...</span>
+          <br />
+        </h2>
+        <h2 class="advice">¡Esquivas misiles deslizando el raton!</h2>
+      </div>
+
+      <!-- Codigo de las animaciones/efectos -->
+
+      <!-- Código de la EM y la bola laser -->
+      <div class="efectos">
+        <img class="nave" src="img/EM.webp" />
+        <div class="bolaLaserf">
+          <div class="bolaLaser"></div>
+        </div>
+
+        <!-- Código de misiles que caen -->
+        <div class="misiles" id="misiles">
+          <div class="misil" id="m1"></div>
+          <div class="misil" id="m2"></div>
+          <div class="misil" id="m3"></div>
+          <div class="misil" id="m4"></div>
+          <div class="misil" id="m5"></div>
+          <div class="misil" id="m6"></div>
+          <div class="misil" id="m7"></div>
+          <div class="misil" id="m8"></div>
+          <div class="misil" id="m9"></div>
+          <div class="misil" id="m10"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Código del terreno  y bb8-->
+    <div class="terreno"></div>
+    <div class="bb8" id="bb8">
+      <div class="antennas">
+        <div class="antenna short"></div>
+        <div class="antenna long"></div>
+      </div>
+      <div class="head">
+        <div class="stripe one"></div>
+        <div class="stripe two"></div>
+        <div class="eyes">
+          <div class="eye one"></div>
+          <div class="eye two"></div>
+        </div>
+        <div class="stripe three"></div>
+      </div>
+      <div class="ball">
+        <div class="lines one"></div>
+        <div class="lines two"></div>
+        <div class="ring one"></div>
+        <div class="ring two"></div>
+        <div class="ring three"></div>
+      </div>
+      <div class="shadow"></div>
+    </div>
+
+    <!-- Script para que funcione el choque -->
+  <script src="js/choque.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+Cosas de la web:
+
+- La musica falla porque no funciona el metodo autoplay 
+para la recarga de pagina sino suena dele en el panel al play.
+
+- Se puede activar descomentando, activar la puntuacion.
+
+Referencia para la lluvia de misiles
+https://codepen.io/luisgagocasas/pen/xORvOX
+
+Cambios: En general todo menos los tiempos.
+
+Referencia para el bb8
+https://codepen.io/mdixondesigns/pen/PPEJwz
+
+Cambios: El escenario diferente.
+
+Referencia del parpadeo del 404
+https://codepen.io/mhdmhsni/pen/NmRojB
+
+Cambios: Cambio del color y algun ajuste mas.
+
+Referencia del metodo getBoundingClientRect
+https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
