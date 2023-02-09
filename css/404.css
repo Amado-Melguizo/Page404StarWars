@@ -438,8 +438,10 @@ a:focus {
     margin-top: -100%;
   }
   .bolaLaser{
+    width: 150px;
+    height: 150px;
     margin-top: -50%;
-    margin-left: 0%;
+    margin-left: 15%;
   }
   audio{
     visibility: hidden;
