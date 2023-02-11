@@ -182,7 +182,7 @@ div#m10 {
     top: -200px;
   }
   to {
-    top: 400px;
+    top: 470px;
   }
 }
 
@@ -430,6 +430,7 @@ a:hover,
 a:focus {
   color: white;
 }
+
 @media only screen and (max-width: 600px) {
   #m2,#m4,#m6,#m8,#m10{
     display: none;
