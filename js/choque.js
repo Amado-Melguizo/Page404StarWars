@@ -1,4 +1,3 @@
-
 /* Código que maneja los eventos de los choques de los divs */
 
 // Prueba si quieres con un contador de fallos (no esta pulido)
